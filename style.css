@@ -1,0 +1,40 @@
+
+img {
+    clip-path: circle(35%);
+    filter: invert(100%) sepia(100%) saturate(900%) hue-rotate(80deg);
+    mix-blend-mode: difference;
+    -webkit-filter: invert(100%) sepia(100%) saturate(900%) hue-rotate(80deg);
+    max-width: 270px;
+}
+
+body{
+    background-color: #181818;
+}
+
+header{
+    padding-top: 35px;
+    /* max-width: 280px;  */
+    text-align: center;
+    
+}
+#title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: azure;
+    letter-spacing: 0px;
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+#subtitle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #b8b6b6;
+    line-height: 20px;
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+    word-wrap: break-word;
+    font-weight: 400;
+}
+
+
+  
